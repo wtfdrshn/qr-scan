@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react';
+import { QrReader } from 'react-qr-reader';
+import Modal from 'react-modal';
 
 const App = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
